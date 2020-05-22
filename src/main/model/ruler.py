@@ -9,9 +9,5 @@ class Ruler(AbstractOfficeTool):
         super().__init__(producer, price_in_uah, brand, colour, warranty_in_days, weight_in_grams)
         self.length_in_cm = length_in_cm
 
-
     def __str__(self):
         return super().__str__()
-
-    def __repr__(self):
-        return super().__repr__()
